@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A5469DF01D87EE6B00739F64 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A5469DEF1D87EE6B00739F64 /* main.m */; };
+		A5469DF31D87EE6B00739F64 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A5469DF21D87EE6B00739F64 /* AppDelegate.m */; };
+		A5469DF61D87EE6B00739F64 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5469DF51D87EE6B00739F64 /* ViewController.m */; };
+		A5469DF91D87EE6B00739F64 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5469DF71D87EE6B00739F64 /* Main.storyboard */; };
+		A5469DFB1D87EE6B00739F64 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5469DFA1D87EE6B00739F64 /* Assets.xcassets */; };
+		A5469DFE1D87EE6B00739F64 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5469DFC1D87EE6B00739F64 /* LaunchScreen.storyboard */; };
+		A5469E091D87EE6B00739F64 /* RadarMapTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A5469E081D87EE6B00739F64 /* RadarMapTests.m */; };
+		A5469E141D87EE6B00739F64 /* RadarMapUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A5469E131D87EE6B00739F64 /* RadarMapUITests.m */; };
+		A5469E231D87EEAA00739F64 /* RadarMapView.m in Sources */ = {isa = PBXBuildFile; fileRef = A5469E221D87EEAA00739F64 /* RadarMapView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A5469E051D87EE6B00739F64 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A5469DE31D87EE6B00739F64 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A5469DEA1D87EE6B00739F64;
+			remoteInfo = RadarMap;
+		};
+		A5469E101D87EE6B00739F64 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A5469DE31D87EE6B00739F64 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A5469DEA1D87EE6B00739F64;
+			remoteInfo = RadarMap;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A5469DEB1D87EE6B00739F64 /* RadarMap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RadarMap.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5469DEF1D87EE6B00739F64 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A5469DF11D87EE6B00739F64 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A5469DF21D87EE6B00739F64 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A5469DF41D87EE6B00739F64 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A5469DF51D87EE6B00739F64 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A5469DF81D87EE6B00739F64 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A5469DFA1D87EE6B00739F64 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A5469DFD1D87EE6B00739F64 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A5469DFF1D87EE6B00739F64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A5469E041D87EE6B00739F64 /* RadarMapTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RadarMapTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5469E081D87EE6B00739F64 /* RadarMapTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RadarMapTests.m; sourceTree = "<group>"; };
+		A5469E0A1D87EE6B00739F64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A5469E0F1D87EE6B00739F64 /* RadarMapUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RadarMapUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5469E131D87EE6B00739F64 /* RadarMapUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RadarMapUITests.m; sourceTree = "<group>"; };
+		A5469E151D87EE6B00739F64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A5469E211D87EEAA00739F64 /* RadarMapView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RadarMapView.h; sourceTree = "<group>"; };
+		A5469E221D87EEAA00739F64 /* RadarMapView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RadarMapView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A5469DE81D87EE6B00739F64 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5469E011D87EE6B00739F64 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5469E0C1D87EE6B00739F64 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A5469DE21D87EE6B00739F64 = {
+			isa = PBXGroup;
+			children = (
+				A5469E211D87EEAA00739F64 /* RadarMapView.h */,
+				A5469E221D87EEAA00739F64 /* RadarMapView.m */,
+				A5469DED1D87EE6B00739F64 /* RadarMap */,
+				A5469E071D87EE6B00739F64 /* RadarMapTests */,
+				A5469E121D87EE6B00739F64 /* RadarMapUITests */,
+				A5469DEC1D87EE6B00739F64 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A5469DEC1D87EE6B00739F64 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A5469DEB1D87EE6B00739F64 /* RadarMap.app */,
+				A5469E041D87EE6B00739F64 /* RadarMapTests.xctest */,
+				A5469E0F1D87EE6B00739F64 /* RadarMapUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A5469DED1D87EE6B00739F64 /* RadarMap */ = {
+			isa = PBXGroup;
+			children = (
+				A5469DF11D87EE6B00739F64 /* AppDelegate.h */,
+				A5469DF21D87EE6B00739F64 /* AppDelegate.m */,
+				A5469DF41D87EE6B00739F64 /* ViewController.h */,
+				A5469DF51D87EE6B00739F64 /* ViewController.m */,
+				A5469DF71D87EE6B00739F64 /* Main.storyboard */,
+				A5469DFA1D87EE6B00739F64 /* Assets.xcassets */,
+				A5469DFC1D87EE6B00739F64 /* LaunchScreen.storyboard */,
+				A5469DFF1D87EE6B00739F64 /* Info.plist */,
+				A5469DEE1D87EE6B00739F64 /* Supporting Files */,
+			);
+			path = RadarMap;
+			sourceTree = "<group>";
+		};
+		A5469DEE1D87EE6B00739F64 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A5469DEF1D87EE6B00739F64 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A5469E071D87EE6B00739F64 /* RadarMapTests */ = {
+			isa = PBXGroup;
+			children = (
+				A5469E081D87EE6B00739F64 /* RadarMapTests.m */,
+				A5469E0A1D87EE6B00739F64 /* Info.plist */,
+			);
+			path = RadarMapTests;
+			sourceTree = "<group>";
+		};
+		A5469E121D87EE6B00739F64 /* RadarMapUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A5469E131D87EE6B00739F64 /* RadarMapUITests.m */,
+				A5469E151D87EE6B00739F64 /* Info.plist */,
+			);
+			path = RadarMapUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A5469DEA1D87EE6B00739F64 /* RadarMap */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5469E181D87EE6B00739F64 /* Build configuration list for PBXNativeTarget "RadarMap" */;
+			buildPhases = (
+				A5469DE71D87EE6B00739F64 /* Sources */,
+				A5469DE81D87EE6B00739F64 /* Frameworks */,
+				A5469DE91D87EE6B00739F64 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RadarMap;
+			productName = RadarMap;
+			productReference = A5469DEB1D87EE6B00739F64 /* RadarMap.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A5469E031D87EE6B00739F64 /* RadarMapTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5469E1B1D87EE6B00739F64 /* Build configuration list for PBXNativeTarget "RadarMapTests" */;
+			buildPhases = (
+				A5469E001D87EE6B00739F64 /* Sources */,
+				A5469E011D87EE6B00739F64 /* Frameworks */,
+				A5469E021D87EE6B00739F64 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A5469E061D87EE6B00739F64 /* PBXTargetDependency */,
+			);
+			name = RadarMapTests;
+			productName = RadarMapTests;
+			productReference = A5469E041D87EE6B00739F64 /* RadarMapTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A5469E0E1D87EE6B00739F64 /* RadarMapUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5469E1E1D87EE6B00739F64 /* Build configuration list for PBXNativeTarget "RadarMapUITests" */;
+			buildPhases = (
+				A5469E0B1D87EE6B00739F64 /* Sources */,
+				A5469E0C1D87EE6B00739F64 /* Frameworks */,
+				A5469E0D1D87EE6B00739F64 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A5469E111D87EE6B00739F64 /* PBXTargetDependency */,
+			);
+			name = RadarMapUITests;
+			productName = RadarMapUITests;
+			productReference = A5469E0F1D87EE6B00739F64 /* RadarMapUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A5469DE31D87EE6B00739F64 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Yvan;
+				TargetAttributes = {
+					A5469DEA1D87EE6B00739F64 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = TT7NP25GW4;
+					};
+					A5469E031D87EE6B00739F64 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = TT7NP25GW4;
+						TestTargetID = A5469DEA1D87EE6B00739F64;
+					};
+					A5469E0E1D87EE6B00739F64 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = TT7NP25GW4;
+						TestTargetID = A5469DEA1D87EE6B00739F64;
+					};
+				};
+			};
+			buildConfigurationList = A5469DE61D87EE6B00739F64 /* Build configuration list for PBXProject "RadarMap" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A5469DE21D87EE6B00739F64;
+			productRefGroup = A5469DEC1D87EE6B00739F64 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A5469DEA1D87EE6B00739F64 /* RadarMap */,
+				A5469E031D87EE6B00739F64 /* RadarMapTests */,
+				A5469E0E1D87EE6B00739F64 /* RadarMapUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A5469DE91D87EE6B00739F64 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5469DFE1D87EE6B00739F64 /* LaunchScreen.storyboard in Resources */,
+				A5469DFB1D87EE6B00739F64 /* Assets.xcassets in Resources */,
+				A5469DF91D87EE6B00739F64 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5469E021D87EE6B00739F64 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5469E0D1D87EE6B00739F64 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A5469DE71D87EE6B00739F64 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5469E231D87EEAA00739F64 /* RadarMapView.m in Sources */,
+				A5469DF61D87EE6B00739F64 /* ViewController.m in Sources */,
+				A5469DF31D87EE6B00739F64 /* AppDelegate.m in Sources */,
+				A5469DF01D87EE6B00739F64 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5469E001D87EE6B00739F64 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5469E091D87EE6B00739F64 /* RadarMapTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5469E0B1D87EE6B00739F64 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5469E141D87EE6B00739F64 /* RadarMapUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A5469E061D87EE6B00739F64 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A5469DEA1D87EE6B00739F64 /* RadarMap */;
+			targetProxy = A5469E051D87EE6B00739F64 /* PBXContainerItemProxy */;
+		};
+		A5469E111D87EE6B00739F64 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A5469DEA1D87EE6B00739F64 /* RadarMap */;
+			targetProxy = A5469E101D87EE6B00739F64 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A5469DF71D87EE6B00739F64 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A5469DF81D87EE6B00739F64 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A5469DFC1D87EE6B00739F64 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A5469DFD1D87EE6B00739F64 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A5469E161D87EE6B00739F64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A5469E171D87EE6B00739F64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A5469E191D87EE6B00739F64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RadarMap/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yvan.test;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A5469E1A1D87EE6B00739F64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RadarMap/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yvan.test;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A5469E1C1D87EE6B00739F64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RadarMapTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = liuyufeng.RadarMapTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RadarMap.app/RadarMap";
+			};
+			name = Debug;
+		};
+		A5469E1D1D87EE6B00739F64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RadarMapTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = liuyufeng.RadarMapTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RadarMap.app/RadarMap";
+			};
+			name = Release;
+		};
+		A5469E1F1D87EE6B00739F64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = RadarMapUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = liuyufeng.RadarMapUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = RadarMap;
+			};
+			name = Debug;
+		};
+		A5469E201D87EE6B00739F64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = RadarMapUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = liuyufeng.RadarMapUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = RadarMap;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A5469DE61D87EE6B00739F64 /* Build configuration list for PBXProject "RadarMap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5469E161D87EE6B00739F64 /* Debug */,
+				A5469E171D87EE6B00739F64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A5469E181D87EE6B00739F64 /* Build configuration list for PBXNativeTarget "RadarMap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5469E191D87EE6B00739F64 /* Debug */,
+				A5469E1A1D87EE6B00739F64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A5469E1B1D87EE6B00739F64 /* Build configuration list for PBXNativeTarget "RadarMapTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5469E1C1D87EE6B00739F64 /* Debug */,
+				A5469E1D1D87EE6B00739F64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A5469E1E1D87EE6B00739F64 /* Build configuration list for PBXNativeTarget "RadarMapUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5469E1F1D87EE6B00739F64 /* Debug */,
+				A5469E201D87EE6B00739F64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A5469DE31D87EE6B00739F64 /* Project object */;
+}

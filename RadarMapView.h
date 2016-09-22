@@ -73,7 +73,7 @@
 @property (strong, nonatomic) UIColor *trunkLineColor;
 
 /**
- *  分等分线颜色 默认黑色
+ *  分等份线颜色 默认黑色
  */
 @property (strong, nonatomic) UIColor *partLineColor;
 

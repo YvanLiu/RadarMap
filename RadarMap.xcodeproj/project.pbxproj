@@ -16,6 +16,7 @@
 		A5469E091D87EE6B00739F64 /* RadarMapTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A5469E081D87EE6B00739F64 /* RadarMapTests.m */; };
 		A5469E141D87EE6B00739F64 /* RadarMapUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A5469E131D87EE6B00739F64 /* RadarMapUITests.m */; };
 		A5469E231D87EEAA00739F64 /* RadarMapView.m in Sources */ = {isa = PBXBuildFile; fileRef = A5469E221D87EEAA00739F64 /* RadarMapView.m */; };
+		A5CD63361D93CF2D007BAA3C /* RaderMapCompleteView.m in Sources */ = {isa = PBXBuildFile; fileRef = A5CD63351D93CF2D007BAA3C /* RaderMapCompleteView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,8 @@
 		A5469E151D87EE6B00739F64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A5469E211D87EEAA00739F64 /* RadarMapView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RadarMapView.h; sourceTree = "<group>"; };
 		A5469E221D87EEAA00739F64 /* RadarMapView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RadarMapView.m; sourceTree = "<group>"; };
+		A5CD63341D93CF2D007BAA3C /* RaderMapCompleteView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RaderMapCompleteView.h; sourceTree = "<group>"; };
+		A5CD63351D93CF2D007BAA3C /* RaderMapCompleteView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RaderMapCompleteView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +89,8 @@
 			children = (
 				A5469E211D87EEAA00739F64 /* RadarMapView.h */,
 				A5469E221D87EEAA00739F64 /* RadarMapView.m */,
+				A5CD63341D93CF2D007BAA3C /* RaderMapCompleteView.h */,
+				A5CD63351D93CF2D007BAA3C /* RaderMapCompleteView.m */,
 				A5469DED1D87EE6B00739F64 /* RadarMap */,
 				A5469E071D87EE6B00739F64 /* RadarMapTests */,
 				A5469E121D87EE6B00739F64 /* RadarMapUITests */,
@@ -281,6 +286,7 @@
 				A5469E231D87EEAA00739F64 /* RadarMapView.m in Sources */,
 				A5469DF61D87EE6B00739F64 /* ViewController.m in Sources */,
 				A5469DF31D87EE6B00739F64 /* AppDelegate.m in Sources */,
+				A5CD63361D93CF2D007BAA3C /* RaderMapCompleteView.m in Sources */,
 				A5469DF01D87EE6B00739F64 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -423,6 +429,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = RadarMap/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yvan.test;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -434,6 +441,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = RadarMap/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yvan.test;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -505,6 +513,7 @@
 				A5469E1A1D87EE6B00739F64 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A5469E1B1D87EE6B00739F64 /* Build configuration list for PBXNativeTarget "RadarMapTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +522,7 @@
 				A5469E1D1D87EE6B00739F64 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A5469E1E1D87EE6B00739F64 /* Build configuration list for PBXNativeTarget "RadarMapUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +531,7 @@
 				A5469E201D87EE6B00739F64 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

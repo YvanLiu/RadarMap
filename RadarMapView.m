@@ -20,10 +20,15 @@
 
 @end
 
+// 每一个主干的长度
 static float element_w = 0;
+// 主干到View预留的空白部分宽度
 static float border_w  = 5;
+// 中心点的横坐标
 static float center_w  = 0;
+// 中心点的纵坐标
 static float center_h  = 0;
+
 @implementation RadarMapView
 
 #pragma mark - 画雷达主干图
@@ -144,32 +149,13 @@ static float center_h  = 0;
     CGContextStrokePath(context);
 }
 
+
 #pragma mark - 算落点坐标
 
 void Coordinate (double pi, float l, float c_w , float c_h, float *x, float *y) {
     
-    if (pi < M_PI_2) {
-        *x = c_w + sin(pi)*l;
-        *y = c_h - cos(pi)*l;
-    } else if (pi == M_PI_2) {
-        *x = c_w + sin(pi)*l;
-        *y = c_h + cos(pi)*l;
-    } else if (pi < M_PI) {
-        *x = c_w + sin(pi)*l;
-        *y = c_h - cos(pi)*l;
-    } else if (pi == M_PI) {
-        *x = c_w + sin(pi)*l;
-        *y = c_h + cos(pi)*l;
-    } else if (pi < M_PI_2*3) {
-        *x = c_w + sin(pi)*l;
-        *y = c_h - cos(pi)*l;
-    } else if (pi == M_PI_2*3) {
-        *x = c_w + sin(pi)*l;
-        *y = c_h + cos(pi)*l;
-    } else {
-        *x = c_w + sin(pi)*l;
-        *y = c_h - cos(pi)*l;
-    }
+    *x = c_w + sin(pi)*l;
+    *y = c_h - cos(pi)*l;
 }
 
 

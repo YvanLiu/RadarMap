@@ -9,6 +9,7 @@
 #import "ViewController.h"
 
 #import "RadarMapView.h"
+#import "RaderMapCompleteView.h"
 
 @interface ViewController ()
 
@@ -19,7 +20,6 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
-    
     // 雷达元素模型
     NSMutableArray *elements = [NSMutableArray new];
     Element *ele1 = [[Element alloc]init];
@@ -37,14 +37,17 @@
     Element *ele5 = [[Element alloc]init];
     ele5.percent = 0.5;
     [elements addObject:ele5];
-
+    
     // 雷达图
-    RadarMapView *radarMap = [[RadarMapView alloc]initWithFrame:CGRectMake(100, 200, 200, 200) Elements:elements];
-    radarMap.part = 5;
-    radarMap.trunkLineColor = [UIColor greenColor];
-    radarMap.partLineColor = [UIColor greenColor];
-    radarMap.percentLineColor = [UIColor redColor];
-    [self.view addSubview:radarMap];
+//    RadarMapView *radarMap = [[RadarMapView alloc]initWithFrame:CGRectMake(100, 200, 200, 200) Elements:elements];
+//    radarMap.part = 5;
+//    radarMap.trunkLineColor = [UIColor greenColor];
+//    radarMap.partLineColor = [UIColor greenColor];
+//    radarMap.percentLineColor = [UIColor redColor];
+//    [self.view addSubview:radarMap];
+//     
+    RaderMapCompleteView *radar = [[RaderMapCompleteView alloc]initWithRadarElements:@[@"考试次数",@"考试难度",@"联系次数",@"平均得分",@"错误率",@"准确率"] lengthColor:[UIColor grayColor]];
+    [self.view addSubview:radar];
 }
 
 - (void)didReceiveMemoryWarning {

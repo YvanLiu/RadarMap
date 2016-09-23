@@ -61,7 +61,7 @@
     item3.itemColor = [UIColor yellowColor];
     item3.itemName = @"实践综合";
 
-    RaderMapCompleteView *radar = [[RaderMapCompleteView alloc]initWithRadarElements:@[@"考试次数",@"考试难度",@"联系次数",@"平均得分",@"错误率",@"准确率"] lengthColor:[UIColor colorWithRed:168.0/255.0 green:168.0/255.0 blue:168.0/255.0 alpha:1]];
+    RaderMapCompleteView *radar = [[RaderMapCompleteView alloc]initWithRadarElements:@[@"考试次数",@"考试难度",@"练习次数",@"平均得分",@"错误率",@"准确率"] lengthColor:[UIColor colorWithRed:168.0/255.0 green:168.0/255.0 blue:168.0/255.0 alpha:1]];
     radar.content = @"能力测评能力测评能力测评能力测评能力测评能力测评能力测评能力测评";
     
     [radar addAbilitysWithElements:@[item1,item2,item3]];

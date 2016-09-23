@@ -267,7 +267,7 @@ void Coordinate_2 (double pi, float l, float c_w , float c_h, float *x, float *y
 - (instancetype)initWithRadarElements:(NSArray *)elements lengthColor:(UIColor *)lengthColor{
     if (self = [super init]) {
         
-        self.frame = CGRectMake(0, 64, RADAR_WIDTH, RADAR_HEIGHT);
+        self.frame = CGRectMake(0, 0, RADAR_WIDTH, RADAR_HEIGHT);
         self.backgroundColor = RGB_M(243, 243, 243);
         self.elements = elements;
         self.lengthColor = lengthColor;
